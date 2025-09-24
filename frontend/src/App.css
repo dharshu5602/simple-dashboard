@@ -1,0 +1,56 @@
+
+.dashboard-bg {
+  background: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+}
+
+
+.table-gradient {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+
+.stat-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bg-gradient-info {
+  background: linear-gradient(135deg, #17a2b8, #00c6ff);
+}
+.bg-gradient-success {
+  background: linear-gradient(135deg, #28a745, #84fab0);
+}
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #ffc107, #ffeb3b);
+}
+
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+
+.table tbody tr:hover {
+  background-color: #e9f7ef !important;
+  cursor: pointer;
+}
+
+
+.task-item {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.task-item:hover {
+  background-color: #f1f8ff;
+  transform: scale(1.01);
+}
+.task-done {
+  background: #d4edda !important;
+}
